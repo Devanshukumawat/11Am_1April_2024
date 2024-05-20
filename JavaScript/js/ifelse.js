@@ -170,16 +170,37 @@ if(num1==num2){
 
 /*
 
-
 user input = ""
 Devanshu = Dev
 Dev = Devanshu
 Kizie = Manny
 Manny = Kizie
 
-
-
 */
+
+
+/**
+input-
+item - Pizza
+price - 100
+quantity- 5
+discount- 10%
+gst- 20%
+
+output-
+item - pizza
+Orignal price - 100
+Quantity - 5
+Bill - 500
+Discount - 50
+Total_bill - 450
+Gst- 90
+final_bill - 540
+You have to pay 540₹ for 5-pizza.
+ */
+
+
+// console.log(`template :- ${varbile}${test}`)
 
 
 
