@@ -49,9 +49,37 @@
 
 // console.log(allStr)
 
-const str = "abcdefghijklmnopqrstuvwxyz"
+// const str = "abcdefghijklmnopqrstuvwxyz"
 
-console.log(str.charAt(3))
+// console.log(str.charAt(1))
+
+// const newStr = str.split("")
+
+// console.log(newStr)
+
+// const newStr = str.toUpperCase()
+
+// console.log(newStr)
+
+// const str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+// const newStr = str.toLowerCase()
+
+// console.log(newStr)
+
+
+// const str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+// const has = str.includes("Z")
+
+// console.log(has)
+
+
+
+
+
+
+
 
 
 
