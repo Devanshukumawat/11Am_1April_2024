@@ -1,3 +1,4 @@
+import { test1 } from "../../module/test1";
 // console.log("Devanshu sir")
 
 //var
@@ -59,6 +60,7 @@
 
 
 
+test1()
 
 
 

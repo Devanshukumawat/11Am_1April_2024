@@ -8,15 +8,19 @@
   <body>
     <script>
       
-       let age = prompt("Enter age :- ")
+      function foo(){
+    let x = 10
+    if(false){
+        let x = 20
+        console.log(x)
+    }
 
-      if (age < 18) {
-        console.log("You are not Eligible for vote");
-      } else if (age >= 18) {
-        console.log("You are Eligible for vote");
-      } else {
-        console.log("Invalid input");
-      }
+    console.log(x)
+
+}
+
+foo()
+
     </script>
   </body>
 </html>

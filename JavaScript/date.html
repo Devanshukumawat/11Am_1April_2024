@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="time"></h1>
+
+    <script>
+      function timer() {
+        const todayTime = new Date();
+        const todayDate = todayTime.getDate();
+        const Days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        const todayDay = todayTime.getDay();
+        const nameDays = Days[todayDay];
+        console.log(nameDays);
+        const months = [
+          "Jan",
+          "Feb",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec",
+        ];
+        const todayMonth = todayTime.getMonth();
+
+        const nameMonths = months[todayMonth];
+
+        const todayYear = todayTime.getFullYear();
+
+        const todayHours = todayTime.getHours();
+        const todayMinuts = todayTime.getMinutes();
+        const todaySec = todayTime.getSeconds();
+
+        // console.log(
+        //   `${todayDate}/${
+        //     todayMonth + 1
+        //   }/${todayYear}  ${todayHours}:${todayMinuts}:${todaySec}`
+        // );
+
+        const Time = `${todayDate}/${
+          todayMonth + 1
+        }/${todayYear}  ${todayHours}:${todayMinuts}:${todaySec}`;
+
+        document.getElementById("time").innerText = Time;
+      }
+
+      setInterval(timer, 1000);
+
+      // setInterval(()=>{
+
+      // },)  //1000ms = 1sec
+    </script>
+  </body>
+</html>
