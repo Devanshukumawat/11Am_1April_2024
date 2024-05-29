@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn{
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 3px 50px 3px 50px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eum. Consequatur corrupti deleniti veniam ab numquam fuga officia, dolor cumque voluptatibus voluptatem dolorem delectus, tempora illum? Animi vero sit dicta aspernatur, est quos minus sapiente laudantium cum possimus veniam tempore rerum eligendi ipsa. Corporis laboriosam vitae, doloremque consequuntur mollitia illum totam voluptate quo deleniti ut aperiam obcaecati provident saepe sapiente, culpa itaque dolorem ea voluptates dolor sequi similique consequatur reprehenderit? Excepturi voluptatibus ipsam, rem laboriosam necessitatibus qui voluptates sapiente beatae in! Expedita provident laudantium impedit deleniti unde natus harum reprehenderit, dolorem cum, facere earum velit quis. Quos quas error deserunt, neque maiores laboriosam perspiciatis! Nihil quidem, cupiditate, expedita consequuntur fuga dolorem facilis vitae recusandae quas laborum, voluptate id? Itaque, facilis nulla. Facere neque, dolor atque officia deserunt obcaecati cumque perferendis explicabo corporis, magnam possimus dignissimos expedita excepturi, voluptatem sapiente ipsam? Vero maxime dolor repellat ipsum fugit officia fuga. Quisquam a explicabo ex totam vero quam voluptate laboriosam, eum necessitatibus atque voluptas nobis nulla amet dolorem vel quos et repudiandae dolor excepturi, doloribus aperiam odio voluptatem dolore praesentium. Laborum sequi iure voluptatem obcaecati culpa a? Aspernatur, ab vitae. Dolorem fugit provident at blanditiis corporis error porro ducimus accusantium eveniet! Placeat quaerat illum non asperiores, totam aliquam eum mollitia similique accusantium repudiandae doloribus, libero, eos nesciunt. A perspiciatis sequi repellat voluptas modi eum dolorem porro adipisci ipsum ex recusandae quidem cupiditate labore dolore, voluptatibus omnis magni nesciunt nisi ullam in ipsa. Laboriosam quia aspernatur consequuntur corporis excepturi magni sapiente, aut ut cumque eligendi recusandae ex vel vero laudantium inventore, assumenda similique architecto soluta voluptates corrupti quibusdam neque accusamus minima suscipit. Consequatur modi itaque asperiores eius dignissimos qui dolorum, magni, ipsam voluptas, reprehenderit ut quia molestiae placeat iure veniam dolor? Similique pariatur aliquid eligendi ab repellendus aut doloremque culpa qui? Atque, dolor labore!</p>
+
+    <button id="btn1">Dark</button>
+    
+    <img src="./media/Animation-PNG-HD.png" alt="" width="200px" id="image">
+    <button onclick="Next()">Next</button>
+    <button onclick="Pre()">Pre</button>
+
+    <button onclick="change()">Change</button>
+
+    <button onclick="changeColor()" id="btn">Color</button>
+
+
+    <script>
+
+
+     
+
+
+        function Next(){
+            document.getElementById("image").attributes[0].value = "./media/Animation-PNG-Photos.png"
+        }
+
+        function Pre(){
+            document.getElementById("image").attributes[0].value = "./media/Animation-PNG-HD.png"
+        }
+
+        function change(){
+            let valueOfimg = document.getElementById("image").attributes[0].value
+            if(valueOfimg==="./media/Animation-PNG-HD.png"){
+                document.getElementById("image").attributes[0].value = "./media/Animation-PNG-Photos.png"
+            }
+            else if(valueOfimg==="./media/Animation-PNG-Photos.png"){
+                document.getElementById("image").attributes[0].value = "./media/Animation-PNG-HD.png"
+            }
+        }
+
+        function changeColor (){
+            const btn =  document.getElementById("btn").style.backgroundColor = "red"
+       console.log(btn)
+        }
+
+
+
+       
+
+
+
+
+
+
+
+    //    const image =  document.getElementById("image").attributes[0].value = "./media/Animation-PNG-Photos.png"
+    //    console.log(image)
+    </script>
+
+
+</body>
+</html>
