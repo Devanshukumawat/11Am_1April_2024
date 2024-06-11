@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <span id="passerror"></span>
+
+    <form onsubmit="return formSubmit()" >
+        <label for="" id="error">Password</label>
+        <input type="text" name="" id="pass" >
+        <label for="" id="error">Confirm Password</label>
+        <input type="text" name="" id="cpass">
+        <label for="">Username</label>
+        <input type="text" name="" id="text">
+        <button type="submit" onclick="printValue()">Submit</button>
+    </form>
+
+
+    <script>
+            const password = document.getElementById("pass")
+            const Cpass = document.getElementById("cpass")
+            const usename = document.getElementById("text").value
+
+
+            
+
+            function formSubmit(){
+                if(password.value!==Cpass.value){
+                    document.getElementById("passerror").innerText = "Password did not match...🫤"
+                    return false
+                }
+                else if(usename.length >= 5){
+                    document.getElementById("passerror").innerText = "userName must be grater then 5...🫤"
+                        return false
+                }
+            else if(usename.trim()==""){
+                document.getElementById("passerror").innerText = "Don't use space...🫤"
+                    return false
+            }
+            }
+
+            function printValue (){
+                window.print()
+            }
+
+
+            console.log(Math)
+            console.log(window)
+            
+    </script>
+    
+</body>
+</html>

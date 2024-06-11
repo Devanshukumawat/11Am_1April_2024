@@ -1,0 +1,21 @@
+[
+   { 
+    "Product1":{
+        "title":"Iphone",
+        "price":"$567",
+        "rating":"4.8",
+        "img":[
+            "./media/-original-imagtc2qzgnnuhxh.webp"
+        ]
+    },
+    "Product2":{
+        "title":"Mi-Poco",
+        "price":"$56",
+        "rating":"4.3",
+        "img":[
+            "./media/51Zjp5fq1EL._AC_UY436_FMwebp_QL65_ - Copy.webp"
+        ]
+    }
+   }
+
+]

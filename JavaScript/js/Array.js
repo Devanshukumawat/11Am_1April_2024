@@ -178,7 +178,7 @@
 
 
 
-foo()
+// foo()
 
 //10/2 = 5
 // 10+5 = 15
@@ -186,6 +186,18 @@ foo()
 
 
 
+// Array = [22,23,4,5,66,76,56,34]
+// Print a new array all-numbers are greater than 50
+
+
+
+const MyArray = [22,23,4,5,66,76,56,34]
+
+const graterValue =  MyArray.filter((value,index)=>{
+ return value>50
+})
+
+console.log(graterValue)
 
 
 
