@@ -61,9 +61,11 @@
 // },5000)
 
 
-setInterval(()=>{
-    console.log("Hello i am a setInterval fun")
-},2000)
+// setInterval(()=>{
+//     console.log("Hello i am a setInterval fun")
+// },2000)
+
+
 
 
 

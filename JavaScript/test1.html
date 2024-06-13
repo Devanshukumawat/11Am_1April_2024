@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus amet explicabo ipsam! Facilis rem accusamus ut tempore eaque, quia accusantium sint! Non distinctio nihil nisi adipisci. Nulla illum, dolore deserunt quidem, voluptatem ducimus aliquid esse velit eos nam minima blanditiis et quae delectus perspiciatis dolorem autem. Quis voluptatem quasi perspiciatis aut nihil labore aspernatur dicta illo eius, corporis laborum nisi totam sed consequuntur alias veniam. Temporibus consequatur sequi ipsa. Nisi nemo pariatur molestias enim dicta a illo, minima quaerat repellendus obcaecati neque culpa, accusamus omnis quae! Tenetur voluptatibus tempore quas, quod eveniet delectus corrupti adipisci fuga necessitatibus dolores facere illo.</P>
+
+<button onclick="printValue()">Print</button>
+
+
+    <script>
+      
+
+    //   console.log(window)
+
+      // alert("Message ....!")
+
+    //   let Account = confirm("Are You sure you want to delete your account")
+    //   console.log(Account)
+
+    // function printValue(){
+    //     window.print()
+    // }
+
+    fetch("https://dummyjson.com/products").then((res)=>{
+    return res.json()
+}).then((data)=>{
+    console.log(data)
+})
+.catch((error)=>{
+    console.log(error)
+})
+
+
+    </script>
+</body>
+</html>
