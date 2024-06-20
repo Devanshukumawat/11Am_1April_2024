@@ -34,5 +34,22 @@
 // console.log(Id(5))
 
 
+// let a;
+// console.log(a)
+
+const myArray = ['ghj','ghj']
+
+// const Rvalur =  myArray.forEach((value,index)=>{
+//    return value
+// })
+
+// console.log(Rvalur)
+
+const Rvalue = myArray.map((value,index)=>{
+    return value
+})
+
+// const Rvalue = ['ghj','ghj']
 
 
+console.log(Rvalue)

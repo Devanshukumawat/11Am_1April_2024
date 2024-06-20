@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, vero quo eligendi ducimus odit quis qui in distinctio dolores iure illum vel officiis veniam! Maiores at dolores exercitationem corrupti maxime? Adipisci numquam cumque, quasi quibusdam ea, nulla alias magni nisi illum libero dolor maiores ut magnam? Ipsa magnam qui vel ullam placeat error eius laboriosam, provident blanditiis ex quod optio voluptatum quo commodi architecto atque temporibus, tenetur accusamus dolores aliquam veniam accusantium! Inventore, obcaecati saepe ducimus ullam exercitationem eveniet quia? Asperiores distinctio quidem, voluptatem modi corporis odio laborum magni atque explicabo, architecto quos incidunt provident tenetur voluptatum ipsa doloremque adipisci!</p>
+    
+    <!-- <button onclick="colorChange()">Dark</button> -->
+    <button onclick="app()">App</button>
+
+    <!-- <script>
+          function colorChange(){
+            let bodyC = document.getElementsByTagName("body")[0].style.backgroundColor
+            if(bodyC === ""){
+                document.getElementsByTagName("body")[0].style.backgroundColor = "black"
+                 document.getElementsByTagName("body")[0].style.color = "white"
+            }else if(bodyC === "black"){
+                document.getElementsByTagName("body")[0].style.backgroundColor = "white"
+                document.getElementsByTagName("body")[0].style.color = "black"
+            }else{
+                document.getElementsByTagName("body")[0].style.backgroundColor = "black"
+                document.getElementsByTagName("body")[0].style.color = "white"
+            }
+           
+            
+           }
+    </script> -->
+
+    <script>
+        function app(){
+            var bg = document.body.style.backgroundColor 
+            
+            if(bg === ""){
+                document.body.style.backgroundColor = "black"
+                document.body.style.color = "white"
+            }
+            else if(bg === "black"){
+                document.body.style.backgroundColor = ""
+                document.body.style.color = "black"
+            }  
+        }
+    </script>
+
+</body>
+</html>

@@ -1,5 +1,5 @@
-{
-   " product1":{
+
+  { "Product":[{
        " name":"Iphone",
        " price":"$567",
        " desc":"Mobile",
@@ -8,14 +8,22 @@
             "../media/Animation-PNG-Photos.png"
         ]
     },
-    "product2":{
+    {
         "name":"samsung",
         "price":"$57",
-       " desc":"Mobile"
+       " desc":"Mobile",
+       " imgaes":[
+            "../media/Animation-PNG-HD.png",
+            "../media/Animation-PNG-Photos.png"
+        ]
     },
-    "product3":{
+   {
         "name":"Mi",
         "price":"$99",
-        "desc":"Mobile"
-    }
+        "desc":"Mobile",
+        " imgaes":[
+            "../media/Animation-PNG-HD.png",
+            "../media/Animation-PNG-Photos.png"
+        ]
+    }]
 }
