@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "DataTypes.js",
-  "type": "module",
+ 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serverStart":"json-server --watch ./data.json"
+    "start": "json-server --watch ./product.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "json-server": "^1.0.0-beta.1",
+    "lodash": "^4.17.21",
     "prompt-sync": "^4.2.0"
   }
 }
