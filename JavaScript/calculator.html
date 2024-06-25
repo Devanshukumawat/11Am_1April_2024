@@ -9,6 +9,7 @@
             background-color: black;
             color: white;
             font-weight: bold;
+            cursor: no-drop;
         }
 
         table,tr,th,td{
@@ -18,6 +19,12 @@
         table{
             background-color: gray;
         }
+
+        th,td{
+            border: 1px solid white;
+        }
+
+
         
     </style>
 </head>
@@ -63,7 +70,7 @@
                     <input type="button" value="=" onclick="Calculator()">
                     <input type="button" value="0" onclick="handleValue('0')">
                     <input type="button" value="/" onclick="handleValue('/')">
-                    <input type="button" value="🔙">
+                    <input type="button" value="🔙" onclick="handleOne()">
 
                 </td>
             </tr>
@@ -84,6 +91,10 @@
 
         function handleClear(){
             display.value = ""
+        }
+
+        function handleOne(){
+            display.value = display.value.slice(0,-1)
         }
 
 
